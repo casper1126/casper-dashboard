@@ -94,36 +94,29 @@ export default function CalendarSection({ tasks, onAdd, onUpdateTask, currentVie
                     onDragLeave={handleDragLeave}
                     onDrop={(e) => handleDrop(e, day)}
                 >
-                    <div className="flex flex-col items-center w-full">
-                        <span style={{
-                            fontWeight: isToday ? 'bold' : '500',
-                            color: isToday ? 'white' : 'var(--color-text)',
-                            width: '24px', height: '24px',
-                            display: 'flex', alignItems: 'center', justifyContent: 'center',
-                            borderRadius: '50%',
-                            backgroundColor: isToday ? 'var(--color-primary)' : 'transparent',
-                            marginBottom: '4px',
-                            fontSize: '0.9rem'
-                        }}>
+                    <div className="flex flex-col items-center w-full h-full">
+                        <span className="calendar-day-number">
                             {day}
                         </span>
 
                         {/* Task Indicators - Text for better visibility */}
-                        <div className="flex flex-col gap-1 w-full mt-1 overflow-hidden">
+                        <div className="flex flex-col gap-1 w-full mt-1 overflow-hidden flex-grow justify-start">
                             {dayTasks.slice(0, 3).map(task => (
                                 <div
                                     key={task.id}
                                     style={{
-                                        fontSize: '0.6rem',
-                                        padding: '2px 4px',
-                                        borderRadius: '3px',
+                                        fontSize: '0.65rem',
+                                        padding: '3px 6px',
+                                        borderRadius: '4px',
                                         backgroundColor: SUBJECT_COLORS[task.subject] || SUBJECT_COLORS['Other'],
                                         color: 'white',
                                         whiteSpace: 'nowrap',
                                         overflow: 'hidden',
                                         textOverflow: 'ellipsis',
-                                        lineHeight: '1',
-                                        textAlign: 'center'
+                                        lineHeight: '1.2',
+                                        textAlign: 'center',
+                                        fontWeight: '500',
+                                        boxShadow: '0 1px 2px rgba(0,0,0,0.1)'
                                     }}
                                 >
                                     {task.title}

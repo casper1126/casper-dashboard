@@ -158,22 +158,27 @@ a {
   }
 }
 
-/* Calendar Day Card - Distinct Box Look */
+/* Calendar Day Card - Premium Box Look */
 .calendar-day-card {
-  aspect-ratio: 1 / 1.3;
-  /* Taller box */
-  border-radius: 12px;
-  /* Rounded corners */
-  background-color: #ffffff;
-  /* White background for "box" look */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-  /* Subtle shadow */
+  aspect-ratio: 1 / 1.4;
+  /* Taller, elegant proportion */
+  border-radius: 16px;
+  /* Softer corners */
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Semi-transparent white */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  /* Glassy border */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  /* Soft, floating shadow */
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 6px;
+  padding: 10px;
+  /* Generous padding (留白) */
   position: relative;
-  transition: all 0.2s ease;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   cursor: pointer;
   overflow: hidden;
 }
@@ -181,26 +186,50 @@ a {
 .calendar-day-card.empty {
   background-color: transparent;
   box-shadow: none;
+  border: none;
   pointer-events: none;
 }
 
 .calendar-day-card.today {
+  background-color: rgba(255, 255, 255, 0.95);
   border: 2px solid var(--color-primary);
-  /* Highlight border for today */
-  background-color: #f0f9ff;
+  box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.15);
+  /* Glow effect */
 }
 
 .calendar-day-card:active {
   transform: scale(0.96);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Day Number Typography */
+.calendar-day-number {
+  font-size: 1.2rem;
+  font-weight: 400;
+  /* Thinner, more elegant */
+  color: var(--color-text);
+  margin-bottom: 6px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.calendar-day-card.today .calendar-day-number {
+  background-color: var(--color-primary);
+  color: white;
+  font-weight: 600;
 }
 
 /* Ensure day names are centered */
 .calendar-grid>div.header-day {
   text-align: center;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: var(--color-text-secondary);
-  padding-bottom: 12px;
+  padding-bottom: 16px;
   /* More space below headers */
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
