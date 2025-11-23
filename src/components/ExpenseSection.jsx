@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { DollarSign, CreditCard, TrendingUp, Plus, Filter, RefreshCw, Trash2, Edit2 } from 'lucide-react';
 
-export default function ExpenseSection({ expenses, onAdd, onUpdate, onDelete }) {
+export default function ExpenseSection({ expenses, onAdd, onUpdate, onDelete, currentViewDate }) {
     const [formData, setFormData] = useState({
         date: new Date().toISOString().split('T')[0],
         category: 'Food',
@@ -14,11 +14,20 @@ export default function ExpenseSection({ expenses, onAdd, onUpdate, onDelete }) 
     const [sortConfig, setSortConfig] = useState({ key: 'date', direction: 'desc' });
 
     // --- Calculations ---
-    const dailyTotal = expenses
+    // Filter expenses for the selected month/year from Calendar
+    const viewYear = currentViewDate.getFullYear();
+    const viewMonth = currentViewDate.getMonth();
+
+    const filteredExpenses = expenses.filter(e => {
+        const d = new Date(e.date);
+        return d.getFullYear() === viewYear && d.getMonth() === viewMonth;
+    });
+
+    const dailyTotal = filteredExpenses
         .filter(e => e.date === formData.date && e.category !== 'Top-up')
         .reduce((sum, e) => sum + Number(e.amount), 0);
 
-    const monthlyTotal = expenses
+    const monthlyTotal = filteredExpenses
         .filter(e => e.category !== 'Top-up')
         .reduce((sum, e) => sum + Number(e.amount), 0);
 
@@ -82,7 +91,7 @@ export default function ExpenseSection({ expenses, onAdd, onUpdate, onDelete }) 
     };
 
     // --- Sorting ---
-    const sortedExpenses = [...expenses].sort((a, b) => {
+    const sortedExpenses = [...filteredExpenses].sort((a, b) => {
         if (a[sortConfig.key] < b[sortConfig.key]) return sortConfig.direction === 'asc' ? -1 : 1;
         if (a[sortConfig.key] > b[sortConfig.key]) return sortConfig.direction === 'asc' ? 1 : -1;
         return 0;
@@ -99,7 +108,7 @@ export default function ExpenseSection({ expenses, onAdd, onUpdate, onDelete }) 
     return (
         <section className="section">
             <div className="card-header">
-                <h2 className="section-title">💰 Expense Tracker</h2>
+                <h2 className="section-title">💰 Expense Tracker ({currentViewDate.toLocaleDateString('en-US', { month: 'long' })})</h2>
             </div>
 
             {/* Summary Cards */}

@@ -9,20 +9,19 @@ const SUBJECT_COLORS = {
     'Other': '#6b7280' // gray-500
 };
 
-export default function CalendarSection({ tasks, onAdd, onUpdateTask }) {
-    const [currentDate, setCurrentDate] = useState(new Date());
+export default function CalendarSection({ tasks, onAdd, onUpdateTask, currentViewDate, onDateChange }) {
     const [selectedDate, setSelectedDate] = useState(null);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [newTaskTitle, setNewTaskTitle] = useState('');
 
-    const year = currentDate.getFullYear();
-    const month = currentDate.getMonth();
+    const year = currentViewDate.getFullYear();
+    const month = currentViewDate.getMonth();
 
     const firstDayOfMonth = new Date(year, month, 1).getDay();
     const daysInMonth = new Date(year, month + 1, 0).getDate();
 
-    const handlePrevMonth = () => setCurrentDate(new Date(year, month - 1, 1));
-    const handleNextMonth = () => setCurrentDate(new Date(year, month + 1, 1));
+    const handlePrevMonth = () => onDateChange(new Date(year, month - 1, 1));
+    const handleNextMonth = () => onDateChange(new Date(year, month + 1, 1));
 
     const handleDayClick = (day) => {
         const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
@@ -161,7 +160,7 @@ export default function CalendarSection({ tasks, onAdd, onUpdateTask }) {
                 <div className="flex items-center gap-md">
                     <button className="btn-icon btn-ghost" onClick={handlePrevMonth}><ChevronLeft /></button>
                     <span className="font-bold text-lg" style={{ minWidth: '140px', textAlign: 'center' }}>
-                        {currentDate.toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
+                        {currentViewDate.toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
                     </span>
                     <button className="btn-icon btn-ghost" onClick={handleNextMonth}><ChevronRight /></button>
                 </div>
