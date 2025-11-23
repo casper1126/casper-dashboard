@@ -74,7 +74,7 @@ export default function CalendarSection({ tasks, onAdd, onUpdateTask, currentVie
     const renderCalendarDays = () => {
         const days = [];
         for (let i = 0; i < firstDayOfMonth; i++) {
-            days.push(<div key={`empty-${i}`} className="calendar-day empty" />);
+            days.push(<div key={`empty-${i}`} className="calendar-day-card empty" />);
         }
         for (let day = 1; day <= daysInMonth; day++) {
             const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
@@ -88,64 +88,53 @@ export default function CalendarSection({ tasks, onAdd, onUpdateTask, currentVie
             days.push(
                 <div
                     key={day}
-                    className="calendar-day card"
+                    className={`calendar-day-card active-month ${isToday ? 'today' : ''}`}
                     onClick={() => handleDayClick(day)}
                     onDragOver={handleDragOver}
                     onDragLeave={handleDragLeave}
                     onDrop={(e) => handleDrop(e, day)}
-                    style={{
-                        padding: '0.5rem',
-                        minHeight: '100px',
-                        borderRadius: 'var(--radius-md)',
-                        border: isToday ? '2px solid var(--primary)' : '1px solid var(--border)',
-                        cursor: 'pointer',
-                        transition: 'all 0.2s',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        gap: '0.25rem'
-                    }}
                 >
-                    <div className="flex justify-between items-center">
+                    <div className="flex flex-col items-center w-full">
                         <span style={{
                             fontWeight: isToday ? 'bold' : '500',
-                            color: isToday ? 'var(--primary)' : 'var(--text-secondary)',
-                            width: '24px', height: '24px', display: 'flex', alignItems: 'center', justifyContent: 'center',
-                            borderRadius: '50%', backgroundColor: isToday ? 'var(--primary-light)' : 'transparent'
+                            color: isToday ? 'white' : 'var(--color-text)',
+                            width: '24px', height: '24px',
+                            display: 'flex', alignItems: 'center', justifyContent: 'center',
+                            borderRadius: '50%',
+                            backgroundColor: isToday ? 'var(--color-primary)' : 'transparent',
+                            marginBottom: '4px',
+                            fontSize: '0.9rem'
                         }}>
                             {day}
                         </span>
-                        {dayTasks.length > 0 && (
-                            <span className="badge" style={{ fontSize: '0.6rem', padding: '0.1rem 0.4rem', background: 'var(--bg-body)' }}>
-                                {dayTasks.length}
-                            </span>
-                        )}
-                    </div>
 
-                    <div className="flex flex-col gap-xs mt-1">
-                        {dayTasks.map(task => (
-                            <div
-                                key={task.id}
-                                draggable="true"
-                                onDragStart={(e) => handleDragStart(e, task.id)}
-                                onDragEnd={handleDragEnd}
-                                onClick={(e) => { e.stopPropagation(); handleDayClick(day); }}
-                                style={{
-                                    fontSize: '0.75rem', // Slightly larger for readability
-                                    padding: '4px 6px',
-                                    borderRadius: '4px',
-                                    backgroundColor: SUBJECT_COLORS[task.subject] || SUBJECT_COLORS['Other'],
-                                    color: 'white',
-                                    whiteSpace: 'normal', // Allow text to wrap if needed
-                                    overflow: 'visible', // Allow content to be seen
-                                    cursor: 'grab',
-                                    lineHeight: '1.2',
-                                    marginBottom: '2px'
-                                }}
-                                title={task.title}
-                            >
-                                {task.title}
-                            </div>
-                        ))}
+                        {/* Task Indicators - Text for better visibility */}
+                        <div className="flex flex-col gap-1 w-full mt-1 overflow-hidden">
+                            {dayTasks.slice(0, 3).map(task => (
+                                <div
+                                    key={task.id}
+                                    style={{
+                                        fontSize: '0.6rem',
+                                        padding: '2px 4px',
+                                        borderRadius: '3px',
+                                        backgroundColor: SUBJECT_COLORS[task.subject] || SUBJECT_COLORS['Other'],
+                                        color: 'white',
+                                        whiteSpace: 'nowrap',
+                                        overflow: 'hidden',
+                                        textOverflow: 'ellipsis',
+                                        lineHeight: '1',
+                                        textAlign: 'center'
+                                    }}
+                                >
+                                    {task.title}
+                                </div>
+                            ))}
+                            {dayTasks.length > 3 && (
+                                <div style={{ fontSize: '0.6rem', color: '#999', textAlign: 'center', lineHeight: '1' }}>
+                                    +{dayTasks.length - 3}
+                                </div>
+                            )}
+                        </div>
                     </div>
                 </div>
             );
@@ -170,7 +159,7 @@ export default function CalendarSection({ tasks, onAdd, onUpdateTask, currentVie
                 <div className="scroll-container">
                     <div className="calendar-grid" style={{ marginBottom: '0.5rem' }}>
                         {['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].map(d => (
-                            <div key={d} className="text-center text-sm font-bold text-muted uppercase">{d}</div>
+                            <div key={d} className="header-day">{d}</div>
                         ))}
                     </div>
                     <div className="calendar-grid">
