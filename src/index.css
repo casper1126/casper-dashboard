@@ -91,7 +91,19 @@ a {
 }
 
 .btn-outline {
-  background: transparent;
   border: 1px solid var(--color-primary);
   color: var(--color-primary);
+}
+
+/* Calendar Grid - Force 7 columns on all devices */
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.75rem;
+  /* Increased gap for better touch targets */
+}
+
+/* Ensure day names are centered */
+.calendar-grid>div {
+  text-align: center;
 }
