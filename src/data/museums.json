@@ -1,0 +1,74 @@
+[
+  {
+    "id": "m-1",
+    "name": "Museo del Merletto (Burano Lace Museum)",
+    "description": "Located in the historic Podestà palace on the colorful island of Burano, this museum is dedicated to the intricate art of Venetian lace-making.",
+    "history": "Opened in 1981, the museum is housed in the former seat of the famous Burano Lace School, founded in 1872 by Countess Andriana Marcello to revive the dying tradition. It showcases rare examples of lace from the 16th to the 20th centuries.",
+    "exhibitions": "The collection features over 200 rare pieces, displaying the evolution of lace patterns from geometric renaissance designs to floral baroque motifs. Live demonstrations by master lace-makers are often held.",
+    "practicalInfo": "Open daily 10:00-16:00 (closed Mondays). Ticket included in the Venice Museum Pass. Vaporetto line 12 from Fondamente Nove."
+  },
+  {
+    "id": "m-2",
+    "name": "Peggy Guggenheim Collection",
+    "description": "One of the most important museums in Italy for European and American art of the first half of the 20th century.",
+    "history": "Housed in the Palazzo Venier dei Leoni, an unfinished 18th-century palace on the Grand Canal. It was the home of the American heiress Peggy Guggenheim for 30 years. She opened her collection to the public in 1951.",
+    "exhibitions": "Features masterpieces by Picasso, Pollock, Dalí, Mondrian, and Kandinsky. The sculpture garden is a highlight, as is the view from the terrace overlooking the Grand Canal.",
+    "practicalInfo": "Open daily 10:00-18:00 (Closed Tuesdays). Tickets ~€16. Booking online is strongly recommended."
+  },
+  {
+    "id": "m-3",
+    "name": "Vatican Museums",
+    "description": "A massive collection of art and history gathered by Popes over centuries, culminating in the Sistine Chapel.",
+    "history": "Founded by Pope Julius II in the early 16th century. It contains some of the most important masterpieces of Renaissance art in the world.",
+    "exhibitions": "Highlights include the Sistine Chapel ceiling by Michelangelo, the Raphael Rooms, the Gallery of Maps, and the Laocoön statue. It is one of the largest museums in the world.",
+    "practicalInfo": "Open Mon-Sat 09:00-18:00. Closed Sundays (except last Sunday of month). Dress code enforced (shoulders/knees covered). Pre-booking essential to skip long lines."
+  },
+  {
+    "id": "m-4",
+    "name": "Ferrari Museum (Maranello)",
+    "description": "The official museum of the Prancing Horse, focusing on the history of the company, the F1 team, and road cars.",
+    "history": "Opened in 1990, the museum tells the story of Enzo Ferrari and his dream. It is located just a few hundred meters from the Ferrari factory and the Fiorano test track.",
+    "exhibitions": "Displays include the Hall of Victories (F1 Champions), a timeline of road cars from the 1947 125 S to modern hypercars like the LaFerrari, and engine displays.",
+    "practicalInfo": "Open daily 09:30-18:00 (Apr-Oct until 19:00). Tickets ~€22. Simulator experience available for extra fee."
+  },
+  {
+    "id": "m-5",
+    "name": "Ferrari Museum (Maranello)",
+    "description": "Duplicate entry - see m-4",
+    "history": "",
+    "exhibitions": "",
+    "practicalInfo": ""
+  },
+  {
+    "id": "m-6",
+    "name": "Lamborghini Museum (MUDETEC)",
+    "description": "Located in Sant'Agata Bolognese, this museum showcases the evolution of the Raging Bull brand.",
+    "history": "Ferruccio Lamborghini founded the company in 1963 to challenge Ferrari. The museum highlights key milestones like the Miura, Countach, and the modern Aventador.",
+    "exhibitions": "Features the first 350 GT, the legendary Miura, the LM002 SUV, and concept cars. Interactive screens explain the carbon fiber technology and aerodynamics.",
+    "practicalInfo": "Open daily 09:30-18:00. Tickets ~€15. Factory tours available but require separate booking well in advance."
+  },
+  {
+    "id": "m-7",
+    "name": "Pagani Automobili Museum",
+    "description": "An exclusive atelier and museum dedicated to the hypercars created by Horacio Pagani.",
+    "history": "Horacio Pagani, originally from Argentina, worked for Lamborghini before founding his own company. The museum reflects his philosophy of 'Art and Science'.",
+    "exhibitions": "Showcases the Zonda and Huayra models. The museum is designed like an Italian piazza. Visitors can often see the production area where cars are hand-built.",
+    "practicalInfo": "Visits by guided tour only. Booking required. Tickets ~€50 (Museum+Factory). Located in San Cesario sul Panaro."
+  },
+  {
+    "id": "m-8",
+    "name": "Bianchi Factory & Museum",
+    "description": "Dedicated to Edoardo Bianchi and the world's oldest bicycle manufacturing company still in existence.",
+    "history": "Founded in 1885 in Milan. Bianchi is synonymous with Italian cycling history, Fausto Coppi, and the iconic 'Celeste' color.",
+    "exhibitions": "Displays historic bicycles, including those ridden by champions like Coppi, Gimondi, and Pantani. Shows the evolution of bicycle technology.",
+    "practicalInfo": "Located in Treviglio. Visits usually require appointment or check specific open days. Check official website for 'Casa Bianchi' tours."
+  },
+  {
+    "id": "m-9",
+    "name": "Colnago La Collezione",
+    "description": "The private collection of Ernesto Colnago, one of the most influential bike builders in history.",
+    "history": "Ernesto Colnago started as a mechanic and became the frame builder for legends like Eddy Merckx. The brand is known for innovation (first carbon fiber bikes with Ferrari).",
+    "exhibitions": "Features the bike used by Merckx for the Hour Record, Pope John Paul II's gold bike, and winning bikes from Paris-Roubaix and World Championships.",
+    "practicalInfo": "Located in Cambiago. Strictly by appointment/reservation. A pilgrimage site for cycling enthusiasts."
+  }
+]

@@ -1,0 +1,1308 @@
+[
+  {
+    "id": 1,
+    "date": "2/05",
+    "title": "台灣→米蘭（夜間出發）",
+    "city": "台灣→米蘭（夜間出發）",
+    "accommodation": "機上過夜。",
+    "events": [
+      {
+        "id": 1,
+        "time": "20:10",
+        "description": "桃園機場集合，辦理登機",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 2,
+        "time": "23:10",
+        "description": "長榮 BR095 起飛",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "date": "2/06 (五)",
+    "title": "抵達米蘭→轉往威尼斯",
+    "city": "抵達米蘭→轉往威尼斯",
+    "accommodation": "威尼斯calle priuli dei cavaletti, 96t",
+    "events": [
+      {
+        "id": 3,
+        "time": "06:50",
+        "description": "抵達米蘭馬爾彭薩機場，入境通關",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 4,
+        "time": "08:00",
+        "description": "前往米蘭Centrale火車站，火車站內早餐",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 5,
+        "time": "12:35",
+        "description": "搭乘Italo高鐵至威尼斯（约2小时15分)",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 6,
+        "time": "15:03",
+        "description": "抵達威尼斯，入住飯店",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 7,
+        "time": "15:30",
+        "description": "聖馬可廣場、鐘樓及運河漫步",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 8,
+        "time": "17:30",
+        "description": "下午茶：Gelatoteca Suso冰淇淋",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 9,
+        "time": "18:30",
+        "description": "晚餐：Osteria Al Mascaron",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 10,
+        "time": "20:30",
+        "description": "聖馬可廣場夜遊",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "date": "2/07 (六)",
+    "title": "威尼斯：Murano & Burano",
+    "city": "威尼斯",
+    "accommodation": "威尼斯calle priuli dei cavaletti, 96t",
+    "events": [
+      {
+        "id": 11,
+        "time": "08:00",
+        "description": "早餐：Farini（主島分店）",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 12,
+        "time": "08:45",
+        "description": "步行至Fondamente Nove水上巴士站",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 13,
+        "time": "09:00",
+        "description": "搭水上巴士（Line 4.1/4.2）前往Murano",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 14,
+        "time": "09:30",
+        "description": "Murano玻璃工坊參觀（建議停留1hr）",
+        "type": "visit",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 15,
+        "time": "10:45",
+        "description": "搭水上巴士前往Burano（Line 12，約40min）",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 16,
+        "time": "11:30",
+        "description": "Burano彩色小島散步、蕾絲博物館（停留2hr）",
+        "type": "visit",
+        "location": "",
+        "detailsId": "m-1"
+      },
+      {
+        "id": 17,
+        "time": "13:30",
+        "description": "午餐：Riva Rosa（Burano平價海鮮，Google 4.4分）",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 18,
+        "time": "15:00",
+        "description": "返回威尼斯主島（Line 12，約40min）",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 19,
+        "time": "16:00",
+        "description": "下午茶：Gelatoteca Suso",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 20,
+        "time": "16:30",
+        "description": "自由活動（購物、運河散步）",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 21,
+        "time": "18:30",
+        "description": "晚餐：Trattoria Alla Madonna（老字號、價格合理）",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 22,
+        "time": "20:00",
+        "description": "聖馬可廣場夜景、自由活動",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "date": "2/08 (日)",
+    "title": "威尼斯主島巡禮",
+    "city": "威尼斯主島巡禮",
+    "accommodation": "威尼斯calle priuli dei cavaletti, 96t",
+    "events": [
+      {
+        "id": 23,
+        "time": "08:00",
+        "description": "早餐：Farini",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 24,
+        "time": "09:00",
+        "description": "聖馬可大教堂（建議提前預約，停留1hr）",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 25,
+        "time": "10:30",
+        "description": "鐘樓、里亞托橋（Rialto Bridge）",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 26,
+        "time": "12:00",
+        "description": "午餐：Dal Moro's（平價現做義大利麵）",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 27,
+        "time": "14:30",
+        "description": "自由活動（購物、拍照）",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 28,
+        "time": "16:00",
+        "description": "下午茶：Venchi Gelato",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 29,
+        "time": "17:30",
+        "description": "貢多拉運河遊覽（現場預訂，約30min）",
+        "type": "visit",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 30,
+        "time": "18:00",
+        "description": "晚餐：Osteria Al Mascaron",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 31,
+        "time": "20:00",
+        "description": "自由活動",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "date": "2/09 (一)",
+    "title": "威尼斯：總督宮 & 自由活動",
+    "city": "威尼斯",
+    "accommodation": "威尼斯calle priuli dei cavaletti, 96t",
+    "events": [
+      {
+        "id": 32,
+        "time": "08:00",
+        "description": "早餐：Farini",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 33,
+        "time": "09:00",
+        "description": "總督宮（Palazzo Ducale，建議提前預約，停留2hr）",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 34,
+        "time": "11:30",
+        "description": "參觀Peggy Guggenheim美術館（現代藝術，停留1.5hr）",
+        "type": "visit",
+        "location": "",
+        "detailsId": "m-2"
+      },
+      {
+        "id": 35,
+        "time": "13:00",
+        "description": "午餐：Trattoria Pontini（平價海鮮）",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 36,
+        "time": "14:30",
+        "description": "威尼斯面具DIY體驗（可預約工作坊，停留1.5hr）",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 37,
+        "time": "16:00",
+        "description": "下午茶：Caffè Florian（聖馬可廣場）",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 38,
+        "time": "17:00",
+        "description": "自由活動（購物、拍照、運河散步）",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 39,
+        "time": "18:30",
+        "description": "晚餐：Osteria da Fiore",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 40,
+        "time": "20:00",
+        "description": "聖馬可廣場夜景、自由活動",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "date": "2/10 (二)",
+    "title": "威尼斯 → 羅馬 火車轉程",
+    "city": "威尼斯 → 羅馬 火車轉程",
+    "accommodation": "sonder antinoo apartment",
+    "events": [
+      {
+        "id": 41,
+        "time": "08:00",
+        "description": "早晨早餐，收拾行李",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 42,
+        "time": "10:00",
+        "description": "步行至Venezia S. Lucia火車站",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 43,
+        "time": "10:45",
+        "description": "火車站內輕食午餐",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 44,
+        "time": "12:05",
+        "description": "搭乘Italo 8929火車",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 45,
+        "time": "16:05",
+        "description": "抵達Roma Termini，計程車至住宿",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 46,
+        "time": "16:30",
+        "description": "飯店Check-in休息",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 47,
+        "time": "19:00",
+        "description": "晚餐：Trattoria Pennestri",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "date": "2/11 (三)",
+    "title": "羅馬經典文化巡禮",
+    "city": "羅馬經典文化巡禮",
+    "accommodation": "sonder antinoo apartment",
+    "events": [
+      {
+        "id": 48,
+        "time": "07:30",
+        "description": "早餐",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 49,
+        "time": "08:30",
+        "description": "羅馬競技場(提前購票)",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 50,
+        "time": "11:00",
+        "description": "古羅馬廣場及帕拉提諾山徒步",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 51,
+        "time": "12:30",
+        "description": "午餐：La Carbonara",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 52,
+        "time": "14:30",
+        "description": "萬神殿、聖依納爵堂參觀",
+        "type": "visit",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 53,
+        "time": "16:00",
+        "description": "Gelateria Della Palma下午茶",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 54,
+        "time": "18:30",
+        "description": "晚餐：Il Margutta",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 55,
+        "time": "20:00",
+        "description": "特拉斯提弗列區夜遊",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "date": "2/12 (四)",
+    "title": "梵蒂岡博物館與聖彼得大教堂",
+    "city": "梵蒂岡博物館與聖彼得大教堂",
+    "accommodation": "sonder antinoo apartment",
+    "events": [
+      {
+        "id": 56,
+        "time": "07:30",
+        "description": "早餐",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 57,
+        "time": "08:00",
+        "description": "梵蒂岡博物館入場(提前預約Skip-the-line)",
+        "type": "visit",
+        "location": "",
+        "detailsId": "m-3"
+      },
+      {
+        "id": 58,
+        "time": "11:30",
+        "description": "聖彼得大教堂及圓頂參觀",
+        "type": "visit",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 59,
+        "time": "13:00",
+        "description": "午餐：Pastasciutta",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 60,
+        "time": "14:30",
+        "description": "羅馬市區自由活動或購物",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 61,
+        "time": "17:30",
+        "description": "下午茶及放鬆",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 62,
+        "time": "19:00",
+        "description": "晚餐：Hostaria Dino e Toni",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "date": "2/13 (五)",
+    "title": "羅馬 → 佛羅倫斯 火車轉程",
+    "city": "羅馬 → 佛羅倫斯 火車轉程",
+    "accommodation": "hotel pendini",
+    "events": [
+      {
+        "id": 63,
+        "time": "08:30",
+        "description": "早餐",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 64,
+        "time": "09:45",
+        "description": "收拾行李退房",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 65,
+        "time": "10:15",
+        "description": "前往Roma Termini火車站",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 66,
+        "time": "10:45",
+        "description": "火車站午餐或咖啡",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 67,
+        "time": "12:40",
+        "description": "搭乘Italo高鐵團體票班次",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 68,
+        "time": "14:17",
+        "description": "抵達Firenze SMN，計程車前往飯店",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 69,
+        "time": "14:30",
+        "description": "Check-in及休息",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 70,
+        "time": "15:30",
+        "description": "佛羅倫斯市區散步(百花大教堂、老橋)",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 71,
+        "time": "19:00",
+        "description": "晚餐：Trattoria Za Za",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "date": "2/14 (六)",
+    "title": "The Mall Outlet購物日",
+    "city": " The Mall Outlet購物日",
+    "accommodation": "hotel pendini",
+    "events": [
+      {
+        "id": 72,
+        "time": "08:00",
+        "description": "早餐：飯店",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 73,
+        "time": "09:00",
+        "description": "搭巴士前往The Mall Outlet（約40min）",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 74,
+        "time": "10:00",
+        "description": "購物、退稅辦理",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 75,
+        "time": "12:30",
+        "description": "午餐：The Mall內咖啡廳（平價）",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 76,
+        "time": "14:00",
+        "description": "返回佛羅倫斯",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 77,
+        "time": "15:00",
+        "description": "自由活動（市區購物、休息）",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 78,
+        "time": "16:00",
+        "description": "下午茶：咖啡館",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 79,
+        "time": "18:00",
+        "description": "晚餐：Trattoria Marione",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 80,
+        "time": "20:00",
+        "description": "自由活動",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "date": "2/15 (日)",
+    "title": "五漁村及比薩斜塔觀光",
+    "city": "五漁村及比薩斜塔觀光",
+    "accommodation": "hotel pendini",
+    "events": [
+      {
+        "id": 81,
+        "time": "08:30",
+        "description": "飯店早餐，步行到佛羅倫斯SMN車站",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 82,
+        "time": "09:28",
+        "description": "搭Regionale 4019火車直達比薩Centrale（約1小時）",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 83,
+        "time": "10:28",
+        "description": "抵達比薩，步行前往斜塔區（約20分鐘）",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 84,
+        "time": "10:50",
+        "description": "參觀比薩斜塔、主教座堂、洗禮堂",
+        "type": "visit",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 85,
+        "time": "12:15",
+        "description": "比薩Centrale搭Regionale 23315火車，前往La Spezia（約1.5小時）",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 86,
+        "time": "13:44",
+        "description": "抵達La Spezia，車站購買Cinque Terre Train Card",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 87,
+        "time": "14:00",
+        "description": "五漁村健行（建議選2村：Riomaggiore + Manarola/Vernazza）",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 88,
+        "time": "17:30",
+        "description": "回La Spezia準備回程",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 89,
+        "time": "18:12",
+        "description": "La Spezia Centrale搭Regionale直達佛羅倫斯（約2小時）",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 90,
+        "time": "20:27",
+        "description": "抵達佛羅倫斯，結束一天行程",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "date": "2/16 (一)",
+    "title": "佛羅倫斯：法拉利博物館",
+    "city": "佛羅倫斯",
+    "accommodation": "hotel pendini",
+    "events": [
+      {
+        "id": 91,
+        "time": "07:00",
+        "description": "飯店取車，出發（建議選佛羅倫斯市區租車點）",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 92,
+        "time": "08:45",
+        "description": "抵達馬拉內羅法拉利博物館（約1.5小時車程）",
+        "type": "visit",
+        "location": "",
+        "detailsId": "m-4"
+      },
+      {
+        "id": 93,
+        "time": "09:00",
+        "description": "馬拉內羅法拉利博物館參觀（建議停留1.5小時）",
+        "type": "visit",
+        "location": "",
+        "detailsId": "m-5"
+      },
+      {
+        "id": 94,
+        "time": "10:30",
+        "description": "開車前往藍寶堅尼博物館（約30分鐘）",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 95,
+        "time": "11:00",
+        "description": "藍寶堅尼博物館參觀（建議停留1小時）",
+        "type": "visit",
+        "location": "",
+        "detailsId": "m-6"
+      },
+      {
+        "id": 96,
+        "time": "12:15",
+        "description": "午餐：Ristorante Retrogusto（馬拉內羅，平價）或藍寶堅尼館附近小餐館",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 97,
+        "time": "13:15",
+        "description": "開車前往帕加尼博物館（約20分鐘）",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 98,
+        "time": "13:45",
+        "description": "帕加尼博物館參觀（建議停留1小時，僅接受預約導覽）",
+        "type": "visit",
+        "location": "",
+        "detailsId": "m-7"
+      },
+      {
+        "id": 99,
+        "time": "15:00",
+        "description": "開車返回佛羅倫斯（約1.5小時車程）",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 100,
+        "time": "16:30",
+        "description": "抵達佛羅倫斯，還車或市區晚餐",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "date": "2/17 (二)",
+    "title": "佛羅倫斯→米蘭 火車轉程",
+    "city": "佛羅倫斯→米蘭 火車轉程",
+    "accommodation": "via achille mauri, 4",
+    "events": [
+      {
+        "id": 101,
+        "time": "08:30",
+        "description": "早餐，打包行李",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 102,
+        "time": "09:30",
+        "description": "退房，前往佛羅倫斯SMN火車站",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 103,
+        "time": "10:00",
+        "description": "火車站早餐或咖啡",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 104,
+        "time": "13:25",
+        "description": "Italo高鐵出發米蘭",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 105,
+        "time": "15:20",
+        "description": "抵達米蘭中央車站",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 106,
+        "time": "15:30",
+        "description": "計程車至飯店check-in",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 107,
+        "time": "16:30",
+        "description": "米蘭大教堂及艾曼紐二世迴廊逛街",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 108,
+        "time": "18:30",
+        "description": "晚餐",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "date": "2/18 (三)",
+    "title": "米蘭outlet購物",
+    "city": "米蘭outlet購物",
+    "accommodation": "via achille mauri, 4",
+    "events": [
+      {
+        "id": 109,
+        "time": "07:30",
+        "description": "飯店早餐",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 110,
+        "time": "08:15",
+        "description": "米蘭中央車站搭Trenord火車至 Treviglio（Bianchi）",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 111,
+        "time": "09:00",
+        "description": "Bianchi Casa Bianchi 工廠/博物館深度參觀（預約信爭取2小時以上）",
+        "type": "visit",
+        "location": "",
+        "detailsId": "m-8"
+      },
+      {
+        "id": 112,
+        "time": "11:40",
+        "description": "回Treviglio車站返回米蘭（火車約35–40分鐘）",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 113,
+        "time": "12:30",
+        "description": "米蘭中央站午餐&短暫休息",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 114,
+        "time": "13:30",
+        "description": "搭乘Outlet直達巴士前往 Serravalle Designer Outlet（建議預約14:00班次，巴",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 115,
+        "time": "15:00",
+        "description": "Outlet 購物（建議16:30或18:00後有回程班次可選）",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "date": "2/19 (四)",
+    "title": "米蘭→科莫湖一日遊",
+    "city": "米蘭→科莫湖一日遊",
+    "accommodation": "via achille mauri, 4",
+    "events": [
+      {
+        "id": 116,
+        "time": "07:30",
+        "description": "早餐：飯店",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 117,
+        "time": "08:43",
+        "description": "火車至Como（約1hr）",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 118,
+        "time": "09:27",
+        "description": "湖邊小鎮漫步、湖上遊船（建議提前預約，停留2hr）",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 119,
+        "time": "12:00",
+        "description": "午餐：湖畔餐廳（Google 4.3分以上）",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 120,
+        "time": "14:00",
+        "description": "科莫中心漫步、纜車（建議提前預約，停留1hr）",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 121,
+        "time": "16:00",
+        "description": "下午茶：湖畔咖啡館",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 122,
+        "time": "17:00",
+        "description": "返回米蘭",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 123,
+        "time": "18:30",
+        "description": "晚餐：Trattoria Milanese",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 124,
+        "time": "20:00",
+        "description": "自由活動",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "date": "2/20 (五)",
+    "title": "蘭購物與退稅",
+    "city": "蘭購物與退稅",
+    "accommodation": "via achille mauri, 4",
+    "events": [
+      {
+        "id": 125,
+        "time": "07:30",
+        "description": "飯店早餐",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 126,
+        "time": "08:15",
+        "description": "米蘭中央站火車或M2綠線至Gorgonzola/Cambiago（Colnago）",
+        "type": "transport",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 127,
+        "time": "09:00",
+        "description": "Colnago La Collezione 工廠/博物館深度參觀（預約信說明想多停",
+        "type": "visit",
+        "location": "",
+        "detailsId": "m-9"
+      },
+      {
+        "id": 128,
+        "time": "11:50",
+        "description": "回Cambiago車站返米蘭中央",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 129,
+        "time": "12:30",
+        "description": "米蘭午餐",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 130,
+        "time": "13:30",
+        "description": "市區散步：可選米蘭大教堂廣場、艾曼紐二世迴廊、Sforza城堡、",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 131,
+        "time": "18:30",
+        "description": "米蘭市區晚餐，夜間活動或飯店休息",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "date": "2/21 (六)",
+    "title": "米蘭文化及購物日",
+    "city": "米蘭文化及購物日",
+    "accommodation": "via achille mauri,",
+    "events": [
+      {
+        "id": 132,
+        "time": "08:00",
+        "description": "早餐",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 133,
+        "time": "10:00",
+        "description": "參觀最後的晚餐壁畫（需預約）",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 134,
+        "time": "12:30",
+        "description": "午餐",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 135,
+        "time": "14:00",
+        "description": "市區自由購物",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 136,
+        "time": "16:00",
+        "description": "下午茶",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 137,
+        "time": "18:30",
+        "description": "晚餐",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "date": "2/22 (日)",
+    "title": "米蘭→台灣",
+    "city": "米蘭→台灣",
+    "accommodation": "",
+    "events": [
+      {
+        "id": 138,
+        "time": "07:30",
+        "description": "早餐：飯店",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 139,
+        "time": "08:30",
+        "description": "整理行李、退房",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 140,
+        "time": "10:00",
+        "description": "前往米蘭機場",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 141,
+        "time": "12:00",
+        "description": "午餐：機場自助餐廳",
+        "type": "meal",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 142,
+        "time": "13:00",
+        "description": "辦理退稅、安檢",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      },
+      {
+        "id": 143,
+        "time": "15:00",
+        "description": "長榮返台班機",
+        "type": "activity",
+        "location": "",
+        "detailsId": null
+      }
+    ]
+  }
+]
