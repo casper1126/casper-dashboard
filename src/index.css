@@ -3,34 +3,47 @@
 @tailwind utilities;
 
 :root {
-  --color-primary: #003366;
-  /* Royal Blue */
-  --color-secondary: #1a472a;
-  /* Deep Green */
-  --color-accent: #c5a059;
-  /* Gold */
-  --color-bg: #f5f5f7;
-  /* Off-white / Apple gray */
-  --color-card-bg: #ffffff;
-  --color-text: #1d1d1f;
-  --color-text-secondary: #86868b;
+  --color-primary: #007AFF;
+  /* iOS Blue - More vibrant */
+  --color-secondary: #34C759;
+  /* iOS Green */
+  --color-accent: #FF9500;
+  /* iOS Orange */
+  --color-bg: #F2F2F7;
+  /* iOS System Gray 6 */
+
+  --color-card-bg: rgba(255, 255, 255, 0.75);
+  /* Translucent for glassmorphism */
+  --color-text: #000000;
+  --color-text-secondary: #8E8E93;
 
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
-  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
-  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.12);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.1);
+  --shadow-premium: 0 10px 40px -10px rgba(0, 0, 0, 0.1);
 
-  --radius-lg: 18px;
-  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-md: 14px;
 
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-sans: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 body {
   margin: 0;
   font-family: var(--font-sans);
-  background-color: var(--color-bg);
+  background-color: #f0f2f5;
+  background-image:
+    radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
+    radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
+  background-image:
+    radial-gradient(at 40% 20%, hsla(210, 100%, 96%, 1) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(189, 100%, 96%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(341, 100%, 96%, 1) 0px, transparent 50%);
+  background-attachment: fixed;
   color: var(--color-text);
   -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
 }
 
 h1,
@@ -40,8 +53,9 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-weight: 600;
-  letter-spacing: -0.02em;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  /* Tighter tracking for modern look */
 }
 
 a {
@@ -53,46 +67,78 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  padding-top: 20px;
 }
 
+/* Glassmorphism Card */
 .card {
   background: var(--color-card-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-sm);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: var(--shadow-premium);
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
   overflow: hidden;
 }
 
 .card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.15);
 }
 
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 20px;
+  padding: 12px 24px;
   border-radius: 99px;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   border: none;
   font-size: 15px;
+  letter-spacing: -0.01em;
 }
 
 .btn-primary {
-  background: var(--color-primary);
+  background: linear-gradient(135deg, var(--color-primary), #0055b3);
   color: white;
+  box-shadow: 0 4px 12px rgba(0, 122, 255, 0.3);
 }
 
 .btn-primary:hover {
-  opacity: 0.9;
+  opacity: 0.95;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 122, 255, 0.4);
 }
 
 .btn-outline {
-  border: 1px solid var(--color-primary);
+  background: transparent;
+  border: 2px solid var(--color-primary);
   color: var(--color-primary);
+}
+
+.btn-outline:hover {
+  background: rgba(0, 122, 255, 0.05);
+}
+
+/* Sticky Glass Header */
+.section-header {
+  position: sticky;
+  top: 10px;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: var(--radius-lg);
+  padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Calendar Grid - Force 7 columns on all devices */

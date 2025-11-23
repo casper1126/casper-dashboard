@@ -110,7 +110,7 @@ function App() {
 
   return (
     <div className="container">
-      <header className="section-header" style={{ marginBottom: '2rem' }}>
+      <header className="section-header">
         <div>
           <h1 className="section-title" style={{ fontSize: '2rem' }}>
             <LayoutDashboard size={32} color="var(--primary)" />
